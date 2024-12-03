@@ -119,8 +119,9 @@ GEM
       logger
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
-    ferrum (0.15)
+    ferrum (0.16)
       addressable (~> 2.5)
+      base64 (~> 0.2)
       concurrent-ruby (~> 1.1)
       webrick (~> 1.7)
       websocket-driver (~> 0.7)
@@ -461,7 +462,7 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    webrick (1.8.2)
+    webrick (1.9.1)
     websocket (1.2.11)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
@@ -492,7 +493,7 @@ DEPENDENCIES
   bump
   capybara
   debug
-  ferrum (~> 0.15)
+  ferrum (~> 0.16)
   google-api-client (~> 0.53.0)
   googleauth (~> 1.11)
   httparty

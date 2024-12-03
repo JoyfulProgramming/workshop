@@ -73,7 +73,7 @@ gem "memory_profiler", "~> 1.1"
 
 gem "rubyzip"
 
-gem "ferrum", "~> 0.15"
+gem "ferrum", "~> 0.16"
 
 gem "playwright-ruby-client", "~> 1.48"
 
