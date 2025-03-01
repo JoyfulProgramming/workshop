@@ -4,6 +4,8 @@ class PatternsController < ApplicationController
   skip_before_action :verify_authenticity_token
 
   def new
+    LogEntry.where(message: "Pattern created").first
+    LogEntry.where(message: "Pattern has been created").first
     render :new
   end
 
