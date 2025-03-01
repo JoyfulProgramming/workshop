@@ -5,7 +5,6 @@ class PatternsController < ApplicationController
 
   def new
     LogEntry.where(message: "Pattern created").first
-    LogEntry.where(message: "Pattern has been created").first
     render :new
   end
 
