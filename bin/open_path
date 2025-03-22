@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -n "$REPLIT_DEV_DOMAIN" ]; then
+  bin/open_in_replit "https://$REPLIT_DEV_DOMAIN/${1}"
+else
+  bin/open_locally "http://localhost:3000/${1}"
+fi
