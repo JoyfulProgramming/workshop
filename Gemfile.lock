@@ -542,6 +542,10 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    rails_semantic_logger (4.17.0)
+      rack
+      railties (>= 5.1)
+      semantic_logger (~> 4.16)
     railties (8.0.0.rc1)
       actionpack (= 8.0.0.rc1)
       activesupport (= 8.0.0.rc1)
@@ -621,6 +625,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    semantic_logger (4.16.1)
+      concurrent-ruby (~> 1.0)
     signet (0.19.0)
       addressable (~> 2.8)
       faraday (>= 0.17.5, < 3.a)
@@ -750,11 +756,13 @@ DEPENDENCIES
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.0.rc1)
+  rails_semantic_logger (~> 4.17)
   rspec (~> 3.13)
   rspec-rails (~> 7.0)
   rubocop-rails-omakase
   rubyzip
   selenium-webdriver
+  semantic_logger (~> 4.16)
   solid_cable
   solid_cache
   solid_errors (~> 0.6.1)
