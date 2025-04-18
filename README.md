@@ -6,7 +6,6 @@
 ## Resources
 
 * [Step by Step Guide](https://joyfulprogramming.notion.site/ruby-conference-workshop)
-* [Slides](https://docs.google.com/presentation/d/1itkecrl8GRwo_EplJ_aJDD2hWK0Np44W7I4hlV1ZD1c/edit?usp=sharing)
 
 ## Setup
 
