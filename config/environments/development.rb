@@ -73,4 +73,5 @@ Rails.application.configure do
   # config.solid_queue.connects_to = { database: { writing: :queue, reading: :queue } }
   config.solid_errors.connects_to = { database: { writing: :development, reading: :development } }
   config.hosts << /.*\.replit\.dev/
+  config.web_console.enabled = false
 end
