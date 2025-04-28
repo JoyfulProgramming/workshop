@@ -83,6 +83,7 @@ GEM
     bigdecimal (3.1.8)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
+    bson (5.0.2)
     builder (3.3.0)
     bump (0.10.0)
     capybara (3.40.0)
@@ -242,6 +243,12 @@ GEM
       railties (>= 7.1)
       stimulus-rails
       turbo-rails
+    mongo (2.21.0)
+      bson (>= 4.14.1, < 6.0.0)
+    mongoid (9.0.6)
+      activemodel (>= 5.1, < 8.1, != 7.0.0)
+      concurrent-ruby (>= 1.0.5, < 2.0)
+      mongo (>= 2.18.0, < 3.0.0)
     msgpack (1.7.3)
     multi_json (1.15.0)
     multi_xml (0.7.1)
@@ -737,6 +744,7 @@ DEPENDENCIES
   memory_profiler (~> 1.1)
   mini_magick (~> 5.0)
   mission_control-jobs (~> 0.6.0)
+  mongoid (~> 9.0)
   opentelemetry-exporter-otlp (~> 0.29.1)
   opentelemetry-instrumentation-all (~> 0.74.0)
   opentelemetry-sdk (~> 1.7)
