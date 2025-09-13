@@ -4,6 +4,7 @@ run = "bin/setup && bin/serve"
 [env]
 RACK_MINI_PROFILER = "off"
 PIDFILE = "/tmp/rails_server.pid"
+DATABASE_URL = "sqlite3:storage/development.sqlite3"
 
 [nix]
 channel = "stable-24_05"
@@ -43,3 +44,6 @@ args = "bin/errors"
 [[ports]]
 localPort = 3000
 externalPort = 80
+
+[agent]
+expertMode = false
