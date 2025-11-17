@@ -288,7 +288,8 @@ class Pattern < ApplicationRecord
       "app.pattern.width" => width,
       "code.namespace" => "Pattern",
       "code.function.name" => "add_border_to_preview",
-      "app.code.args.size" => size
+      "app.code.args.size" => size,
+      "app.pattern.orientation" => orientation
     ) do
       preview_image = MiniMagick::Image.read(preview.download)
       preview_image_width = preview_image.data.dig("geometry", "width")
