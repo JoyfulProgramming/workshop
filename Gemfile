@@ -94,3 +94,5 @@ gem "faraday-follow_redirects", "~> 0.3.0"
 gem "opentelemetry-sdk", "~> 1.7"
 gem "opentelemetry-exporter-otlp", "~> 0.29.1"
 gem "opentelemetry-instrumentation-all", "~> 0.74.0"
+
+gem "mongoid", "~> 9.0"
